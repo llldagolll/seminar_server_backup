@@ -2,4 +2,4 @@
 
 set -eu
 
-mkdir -p ${BACKUPDIR} && touch ${BACKUPDIR}/backup.marker
+mkdir ${BACKUPDIR} && touch ${BACKUPDIR}/backup.marker
