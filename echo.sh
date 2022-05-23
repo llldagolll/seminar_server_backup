@@ -1,3 +1,4 @@
 . ./.env
 
-echo ${BACKUPDIR}\/latest/
+# echo ${BACKUPDIR}\/latest/
+echo ${LEAVEFILE}
