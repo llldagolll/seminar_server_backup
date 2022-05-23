@@ -15,8 +15,6 @@ OS: wsl Ubuntu 20.04 lts
 ```
 ---
 ### 注意  
-restore.shは**絶対に実行しない**こと.  
-未完成なのでデータ消し飛びます  
 
 ---
 
@@ -50,7 +48,9 @@ SRCDIR="/"
 ```
 ./init.sh
 ```
----  
+--- 
+
+# 使い方
 ## バックアップの実行  
 ```
 sudo ./backup.sh
@@ -75,6 +75,10 @@ store/
 2 directories, 1 file
 ```
 
+## 復元
+```
+sudo ./restore.sh
+```  
 
 # 参考  
 https://github.com/laurent22/rsync-time-backup/blob/master/README.md
