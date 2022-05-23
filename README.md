@@ -1,7 +1,7 @@
 # seminar_server_backup
 ゼミ室のサーバのバックアップスクリプトの置き場
 ### 環境
-OS: wsl Ubuntu 22.04 lts  
+OS: wsl Ubuntu 20.04 lts  
 ---
 ### 最終的なディレクトリ構成
 ```
@@ -13,6 +13,11 @@ OS: wsl Ubuntu 22.04 lts
 
 2 directories, 3 files
 ```
+---
+### 注意  
+restore.shは**絶対に実行しない**こと.  
+未完成なのでデータ消し飛びます  
+
 ---
 
 
