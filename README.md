@@ -36,7 +36,7 @@ SRCDIR="{バックアップしたいデータ}"
 
 例  
 ```
-BACKUPDIR="store"
+BACKUPDIR="/home/{username}/seminar_server_backup/store"
 SRCDIR="/"
 ```
 
