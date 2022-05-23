@@ -76,7 +76,9 @@ store/
 ```
 
 ## 復元
+```
 sudo ./restore.sh
+```  
 
 # 参考  
 https://github.com/laurent22/rsync-time-backup/blob/master/README.md
