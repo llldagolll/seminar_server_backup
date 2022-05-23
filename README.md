@@ -35,12 +35,14 @@ touch .env
 ``` bash:.env
 BACKUPDIR="{バックアップの置き場}"
 SRCDIR="{バックアップしたいデータ}"
+LEAVEFILE="{leave_file_patterns.txtのある場所}"
 ```
 
 例  
 ```
 BACKUPDIR="/home/{username}/seminar_server_backup/store"
 SRCDIR="/"
+LEAVEFILE="/home/{username}/seminar_server_backup/leave_file_patterns.txt"
 ```
 
 
