@@ -2,4 +2,4 @@
 
 set -eu
 
-rsync -aP --exclude-from='/home/dago/seminar_server_backup/excluded_patterns.txt' ${BACKUPDIR}\/ ${SRCDIR}
+rsync -avnP --delete --exclude-from='/home/dago/seminar_server_backup/excluded_patterns.txt' ${BACKUPDIR}\/latest/ ${SRCDIR} >> ./log/$(date +%Y-%m-%d-%s).log
