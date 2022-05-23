@@ -2,6 +2,19 @@
 ゼミ室のサーバのバックアップスクリプトの置き場
 ### 環境
 OS: wsl Ubuntu 22.04 lts  
+---
+### 最終的なディレクトリ構成
+```
+├── backup.sh
+├── excluded_patterns.txt
+├── init.sh
+├── rsync-time-backup
+└── store
+
+2 directories, 3 files
+```
+---
+
 
 ## 初回準備
 github から2つのrepoをDL
