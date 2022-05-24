@@ -1,6 +1,6 @@
 *node_modules
-/hdd01/*
-/hdd02/*
+/hdd01
+/hdd02
 /home
 /dev/*
 /proc/*
