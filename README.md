@@ -79,7 +79,7 @@ store/
 2 directories, 1 file
 ```
 
-## 復元
+## ルートディレクトリの復元
 ```
 sudo ./restore.sh
 ```  
