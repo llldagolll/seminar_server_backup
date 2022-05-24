@@ -2,4 +2,4 @@
 
 set -eu
 
-./rsync-time-backup/rsync_tmbackup.sh ${SRCDIR} ${BACKUPDIR} excluded_patterns.txt --log-dir ./log/backup/
+./rsync-time-backup/rsync_tmbackup.sh --log-dir ./log/backup  ${SRCDIR} ${BACKUPDIR} excluded_patterns.txt
