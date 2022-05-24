@@ -24,9 +24,7 @@ OS: wsl Ubuntu 20.04 lts
 ## 初回準備
 github から2つのrepoをDL
 ```
-git clone https://github.com/llldagolll/seminar_server_backup.git && \
-cd seminar_server_backup && \
-git clone https://github.com/laurent22/rsync-time-backup
+git clone --recursive https://github.com/llldagolll/seminar_server_backup.git
 ```    
 環境設定ファイルの作成  
 ```
